@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.cis260specialgreen {
+    color: #055f0f;
+}
+
+#cis-special-parent a {
+    color: #efef15;
+
+}
+
+#content {
+    color: goldenrod
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-family: fantasy
+}
+
+li {
+    font-family: fantasy
+}
+
+h1 {
+
+    font-family: fantasy;
+    border: 2px solid #ffffff;
+}
+
+a {
+
+    font-family: fantasy
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/pb.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 110vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: .5em;
+    color: #055f0f;
+
+}
+
+}
+
+@media screen and (max-width: 40rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+
+    }
+}
+
+form input,
+textarea {
+    margin: 2px 0;
+}
+
+form p {
+    display: flex;
+    margin-bottom: .5em;
+}
+
+form label {
+    flex-basis: 40%
+}
+
+form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+}
+
+h1,
+li,
+ul {
+    text-transform: uppercase;
+}
+
+.radio-buttons {
+    margin-right: 20px;
+    font-family: fantasy
+}
